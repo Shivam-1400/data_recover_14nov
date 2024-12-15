@@ -1,0 +1,17 @@
+{
+    "redis_conn": {
+        "host": "127.0.0.1",
+        "port": "6379",
+        "username": "",
+        "password": ""
+    },
+    "redis_queue": {
+        "queue_lvl1": "breqid",
+        "queue_lvl2": "dmreqid",
+        "queue_lvl3": "redisid"
+    },
+    "application": {
+        "worker": 1,
+        "read_path": "./data"
+    }
+}
